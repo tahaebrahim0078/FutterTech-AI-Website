@@ -1,0 +1,486 @@
+.TopMainScnd {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 47vh;
+}
+.TopMainScnd:first-child {
+  border-bottom: 1px solid #242424;
+}
+
+.SecondHome {
+  display: flex;
+  height: 100%;
+  width: 85%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftSecond {
+  width: 59%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+.leftSecond img {
+  height: 50px;
+  margin-left: 0px;
+
+  margin-bottom: 10px;
+}
+.leftSecond h1 {
+  margin-left: 0px;
+}
+.leftSecond p {
+  margin-left: 0px;
+  color: #98989a;
+  width: 80%;
+}
+
+.rightSecond {
+  border-left: 1px solid #262626;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  flex-direction: column;
+}
+.TopCardSdndHome {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: end;
+  justify-content: end;
+  margin-bottom: 7.5px;
+
+  gap: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.DownCardSdndHome {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: start;
+  margin-top: 7.5px;
+  justify-content: end;
+
+  gap: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.cardSecnd1 {
+  border: 1px solid #262626;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 420px;
+  height: 150px;
+  margin-top: 5px;
+
+  background-color: #1a1a1a;
+  transition: 0.3s ease;
+}
+.cardSecnd1 h1 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-left: 35px;
+}
+.cardSecnd1 p {
+  margin-left: 35px;
+  margin-right: 50px;
+  margin-top: 15px;
+  color: #98989a;
+}
+
+.cardSecnd2 {
+  border: 1px solid #262626;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 420px;
+  height: 150px;
+  margin-top: 5px;
+
+  background-color: #1a1a1a;
+  transition: 0.3s ease;
+}
+.cardSecnd2 h1 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-left: 35px;
+}
+.cardSecnd2 p {
+  margin-left: 35px;
+  margin-right: 50px;
+  margin-top: 15px;
+  color: #98989a;
+}
+
+.cardSecnd3 {
+  border: 1px solid #262626;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 420px;
+  height: 150px;
+
+  background-color: #1a1a1a;
+  transition: 0.3s ease;
+}
+.cardSecnd3 h1 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-left: 35px;
+}
+.cardSecnd3 p {
+  margin-left: 35px;
+  margin-right: 50px;
+  margin-top: 15px;
+  color: #98989a;
+}
+
+.cardSecnd4 {
+  border: 1px solid #262626;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 420px;
+  height: 150px;
+
+  background-color: #1a1a1a;
+  transition: 0.3s ease;
+}
+.cardSecnd4 h1 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-left: 35px;
+}
+.cardSecnd4 p {
+  margin-left: 35px;
+  margin-right: 50px;
+  margin-top: 15px;
+  color: #98989a;
+}
+.scndDown {
+  border-top: 1px solid #262626;
+}
+
+.cardSecnd1:hover {
+  background-color: #262626;
+  transform: scale(1.05);
+  border: 1px solid #ffd11a;
+}
+.cardSecnd2:hover {
+  background-color: #262626;
+  transform: scale(1.05);
+  border: 1px solid #ffd11a;
+}
+.cardSecnd3:hover {
+  background-color: #262626;
+  transform: scale(1.05);
+  border: 1px solid #ffd11a;
+}
+.cardSecnd4:hover {
+  background-color: #262626;
+  transform: scale(1.05);
+  border: 1px solid #ffd11a;
+}
+
+@media (max-width: 1500px) {
+  .leftSecond h1 {
+    margin-left: 0px;
+    font-size: 28px;
+  }
+  .leftSecond p {
+    font-size: 16px;
+  }
+  .cardSecnd1,
+  .cardSecnd2,
+  .cardSecnd3,
+  .cardSecnd4 {
+    width: 380px;
+    height: 140px;
+    margin-top: 5px;
+  }
+  .cardSecnd1 h1,
+  .cardSecnd2 h1,
+  .cardSecnd3 h1,
+  .cardSecnd4 h1 {
+    font-size: 19px;
+
+    margin-left: 35px;
+  }
+  .cardSecnd1 p {
+    margin-left: 35px;
+    margin-right: 50px;
+    margin-top: 15px;
+    color: #98989a;
+  }
+}
+@media (max-width: 1350px) {
+  .leftSecond h1 {
+    margin-left: 0px;
+    font-size: 25px;
+  }
+  .leftSecond p {
+    font-size: 15px;
+  }
+  .cardSecnd1,
+  .cardSecnd2,
+  .cardSecnd3,
+  .cardSecnd4 {
+    width: 320px;
+    height: 120px;
+    margin-top: 5px;
+  }
+  .cardSecnd1 h1,
+  .cardSecnd2 h1,
+  .cardSecnd3 h1,
+  .cardSecnd4 h1 {
+    font-size: 18px;
+
+    margin-left: 35px;
+  }
+  .cardSecnd1 p,
+  .cardSecnd2 p,
+  .cardSecnd3 p,
+  .cardSecnd4 p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1100px) {
+  .SecondHome {
+    width: 85%;
+  }
+
+  .leftSecond h1 {
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .leftSecond p {
+    font-size: 14px;
+  }
+  .cardSecnd1,
+  .cardSecnd2,
+  .cardSecnd3,
+  .cardSecnd4 {
+    width: 280px;
+    height: 110px;
+    margin-top: 5px;
+  }
+  .cardSecnd1 h1,
+  .cardSecnd2 h1,
+  .cardSecnd3 h1,
+  .cardSecnd4 h1 {
+    font-size: 16px;
+
+    margin-left: 35px;
+  }
+  .cardSecnd1 p,
+  .cardSecnd2 p,
+  .cardSecnd3 p,
+  .cardSecnd4 p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 950px) {
+  .TopMainScnd {
+    height: 47vh;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border: none;
+  }
+
+  .SecondHome {
+    gap: 30px;
+    display: flex;
+    height: 100%;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .leftSecond {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    border: none;
+    border-bottom: 1px solid #242424;
+  }
+
+  .rightSecond {
+    border-left: 1px solid #262626;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    flex-direction: column;
+  }
+  .leftSecond h1 {
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .leftSecond p {
+    font-size: 14px;
+  }
+  .TopCardSdndHome {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+
+    gap: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .DownCardSdndHome {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+
+    gap: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .cardSecnd1,
+  .cardSecnd2,
+  .cardSecnd3,
+  .cardSecnd4 {
+    width: 48%;
+    height: 110px;
+    margin-top: 5px;
+  }
+  .cardSecnd1 h1,
+  .cardSecnd2 h1,
+  .cardSecnd3 h1,
+  .cardSecnd4 h1 {
+    font-size: 16px;
+
+    margin-left: 35px;
+  }
+  .cardSecnd1 p,
+  .cardSecnd2 p,
+  .cardSecnd3 p,
+  .cardSecnd4 p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .TopMainScnd {
+    height: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .SecondHome {
+    gap: 30px;
+    display: flex;
+    height: 100%;
+    width: 85%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .leftSecond {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    border: none;
+    border-bottom: 1px solid #242424;
+    padding: 20px;
+  }
+
+  .rightSecond {
+    border-left: 1px solid #262626;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+
+    align-items: center;
+    flex-direction: column;
+  }
+  .leftSecond h1 {
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .leftSecond p {
+    font-size: 14px;
+  }
+  .TopCardSdndHome {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .DownCardSdndHome {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .cardSecnd1,
+  .cardSecnd2,
+  .cardSecnd3,
+  .cardSecnd4 {
+    width: 95%;
+    height: 110px;
+    margin-top: 5px;
+  }
+  .cardSecnd1 h1,
+  .cardSecnd2 h1,
+  .cardSecnd3 h1,
+  .cardSecnd4 h1 {
+    font-size: 16px;
+
+    margin-left: 35px;
+  }
+  .cardSecnd1 p,
+  .cardSecnd2 p,
+  .cardSecnd3 p,
+  .cardSecnd4 p {
+    font-size: 12px;
+  }
+}

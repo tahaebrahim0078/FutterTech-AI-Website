@@ -1,0 +1,900 @@
+.MainFooter {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.TopFooter {
+  border-top: 1px solid #262626;
+  border-bottom: 1px solid #262626;
+
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+}
+.TopTopFooter {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 110px;
+}
+.TextTopFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+.btnParaFooter {
+  padding: 7px;
+  background-color: #333333;
+  border-radius: 5px;
+}
+.btnParaFooterLogo {
+  display: none;
+}
+.TextTopFooter h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+.TextTopFooter p {
+  color: #7e7e81;
+}
+
+.imgFooter img {
+  height: 125px;
+}
+
+.MainBotTopFooter {
+  width: 85%;
+  border-radius: 11px;
+
+  border: 1px solid #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+  background-color: #141414;
+}
+.BotTopFooter {
+  display: flex;
+  width: 97.5%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+.CardTopFooter {
+  display: flex;
+  border: 1px solid #262626;
+  align-items: center;
+  justify-content: space-between;
+  width: 650px;
+  height: 165px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 11px;
+  background-color: #1a1a1a;
+  transition: 0.3s ease;
+}
+.CardTopFooter:hover {
+  border: 1px solid #ffd11a;
+  background-color: #141414;
+}
+.TextBotCardFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.TextBotCardFooter p {
+  color: #98989a;
+}
+
+.imgCardFooter a img {
+  height: 40px;
+  margin-bottom: 60px;
+}
+
+.BotFooter {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BotFooterLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 85%;
+}
+
+.LinFooterLink1 {
+  margin-top: 90px;
+  margin-bottom: 50px;
+
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.LinFooterLink2 {
+  margin-top: 90px;
+  margin-bottom: 50px;
+
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 25px;
+}
+.LinFooterLink3 {
+  margin-top: 90px;
+  margin-bottom: 50px;
+
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 25px;
+}
+.LinFooterLink4 {
+  margin-top: 90px;
+  margin-bottom: 50px;
+
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 25px;
+}
+.LinFooterLink5 {
+  margin-top: 90px;
+  margin-bottom: 50px;
+
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 25px;
+}
+.LinFooterLink1 a:first-child {
+  text-decoration: none;
+  color: white;
+
+  margin-bottom: 15px;
+}
+.LinFooterLink1 a {
+  text-decoration: none;
+  color: #666666;
+}
+.LinFooterLink1 a:last-child {
+  text-decoration: none;
+  color: #666666;
+  margin-bottom: 70px;
+}
+
+.LinFooterLink2 a:first-child {
+  text-decoration: none;
+  color: white;
+
+  margin-bottom: 15px;
+}
+.LinFooterLink2 a {
+  text-decoration: none;
+  color: #666666;
+}
+.LinFooterLink2 a:last-child {
+  text-decoration: none;
+  color: #666666;
+  margin-bottom: 70px;
+}
+
+.LinFooterLink3 a:first-child {
+  text-decoration: none;
+  color: white;
+
+  margin-bottom: 15px;
+}
+.LinFooterLink3 a {
+  text-decoration: none;
+  color: #666666;
+}
+.LinFooterLink3 a:last-child {
+  text-decoration: none;
+  color: #666666;
+  margin-bottom: 70px;
+}
+
+.LinFooterLink4 a:first-child {
+  text-decoration: none;
+  color: white;
+
+  margin-bottom: 15px;
+}
+.LinFooterLink4 a {
+  text-decoration: none;
+  color: #666666;
+}
+.LinFooterLink4 a:last-child {
+  text-decoration: none;
+  color: #666666;
+  margin-bottom: 70px;
+}
+
+.LinFooterLink5 a:first-child {
+  text-decoration: none;
+  color: white;
+
+  margin-bottom: 15px;
+}
+
+.LinFooterLink5 a {
+  text-decoration: none;
+  color: white;
+}
+.LinksFooterBottomBTN_Main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.LinFooterLink5 a:last-child {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.SpanNew {
+  background-image: linear-gradient(
+    to left bottom,
+    hsla(48, 100%, 55%, 0.26),
+    hsl(0, 0%, 15%, 36%)
+  );
+
+  padding: 4px 1px 4px 1px;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.SpanNew span {
+  background-color: #1a1a1a;
+  padding: 3px 8px 3px 8px;
+  border-radius: 8px;
+  color: white;
+}
+
+.LinksFooterBottomBTN {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  color: #98989a;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+.LinksFooterBottomBTN:hover {
+  border: 1px solid #ffd11a;
+  color: #ffd11a;
+}
+
+.LinFooterLink5 a button img {
+  height: 20px;
+}
+
+.BotFooter a {
+  transition: 0.2s ease;
+}
+.BotFooter a:hover {
+  color: white;
+  transform: scale(1.03);
+}
+
+.SuperBotFooter {
+  border-top: 1px solid #262626;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+.TypsSuperBotFooter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.TypsSuperBotFooter p {
+  color: #666666;
+}
+
+.LineTypsSuperBotFooter {
+  border: none;
+
+  height: 100%;
+}
+.IconsSuperBotFooter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.IconsSuperBotFooter img {
+  height: 25px;
+  transition: 0.3s ease;
+}
+.IconsSuperBotFooter a img:hover {
+  transform: scale(1.1);
+}
+
+.ParaSuperBotFooter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.ParaSuperBotFooter p {
+  color: #666666;
+}
+
+@media (max-width: 1350px) {
+  .TopFooter {
+    height: 65vh;
+    gap: 65px;
+  }
+  .TopTopFooter {
+    gap: 40px;
+    margin-top: 110px;
+  }
+  .TextTopFooter h1 {
+    font-size: 45px;
+  }
+  .TextTopFooter p {
+    color: #7e7e81;
+    font-size: 16px;
+  }
+
+  .imgFooter img {
+    height: 110px;
+  }
+  .BotTopFooter {
+    gap: 20px;
+  }
+
+  .TextBotCardFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .TextBotCardFooter h1 {
+    font-size: 19px;
+  }
+  .TextBotCardFooter p {
+    color: #98989a;
+    font-size: 15px;
+  }
+
+  .imgCardFooter a img {
+    height: 35px;
+    margin-bottom: 80px;
+  }
+
+  .BotFooterLinks {
+    height: 100%;
+    gap: 18px;
+  }
+  .LinFooterLink1,
+  .LinFooterLink2,
+  .LinFooterLink3,
+  .LinFooterLink4,
+  .LinFooterLink5 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    height: 70%;
+
+    gap: 23px;
+  }
+  .LinFooterLink1 a:first-child,
+  .LinFooterLink2 a:first-child,
+  .LinFooterLink3 a:first-child,
+  .LinFooterLink4 a:first-child,
+  .LinFooterLink5 a:first-child {
+    margin-bottom: 10px;
+  }
+  .LinFooterLink1 a:last-child,
+  .LinFooterLink2 a:last-child,
+  .LinFooterLink3 a:last-child,
+  .LinFooterLink4 a:last-child,
+  .LinFooterLink5 a:last-child {
+    margin-bottom: 70px;
+  }
+  .LinksFooterBottomBTN {
+    gap: 10px;
+    padding: 10px;
+
+    font-size: 14px;
+  }
+  .LinFooterLink5 a button img {
+    height: 18px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .TopFooter {
+    height: 65vh;
+    gap: 65px;
+  }
+  .TopTopFooter {
+    gap: 40px;
+    margin-top: 110px;
+  }
+  .btnParaFooter {
+    font-size: 14px;
+  }
+  .TextTopFooter h1 {
+    font-size: 35px;
+  }
+  .TextTopFooter p {
+    color: #7e7e81;
+    font-size: 15px;
+  }
+
+  .imgFooter img {
+    height: 100px;
+  }
+  .BotTopFooter {
+    gap: 15px;
+  }
+
+  .TextBotCardFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .TextBotCardFooter h1 {
+    font-size: 18px;
+  }
+  .TextBotCardFooter p {
+    color: #98989a;
+    font-size: 13px;
+  }
+
+  .imgCardFooter a img {
+    height: 30px;
+    margin-bottom: 80px;
+  }
+  .TypsSuperBotFooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+  }
+  .TypsSuperBotFooter p {
+    font-size: 15px;
+  }
+  .ParaSuperBotFooter p {
+    font-size: 15px;
+
+  }
+  .IconsSuperBotFooter img {
+    height: 20px;
+
+  }
+  
+  
+}
+
+@media (max-width: 900px) {
+  .TopFooter {
+    height: 65vh;
+    gap: 55px;
+  }
+  .TopTopFooter {
+    gap: 40px;
+    margin-top: 110px;
+  }
+  .btnParaFooter {
+    font-size: 13px;
+  }
+  .TextTopFooter h1 {
+    font-size: 29px;
+  }
+  .TextTopFooter p {
+    color: #7e7e81;
+    font-size: 14px;
+  }
+
+  .imgFooter img {
+    height: 100px;
+  }
+  .BotTopFooter {
+    gap: 15px;
+  }
+
+  .TextBotCardFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .TextBotCardFooter h1 {
+    font-size: 16px;
+  }
+  .TextBotCardFooter p {
+    color: #98989a;
+    font-size: 13px;
+  }
+
+  .imgCardFooter a img {
+    height: 30px;
+    margin-bottom: 80px;
+  }
+  .BotFooterLinks {
+    height: 100%;
+    gap: 18px;
+  }
+  .LinFooterLink1,
+  .LinFooterLink2,
+  .LinFooterLink3,
+  .LinFooterLink4,
+  .LinFooterLink5 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    height: 70%;
+
+    gap: 23px;
+  }
+  .LinFooterLink1 a,
+  .LinFooterLink2 a,
+  .LinFooterLink3 a,
+  .LinFooterLink4 a,
+  .LinFooterLink5 a {
+    font-size: 13px;
+  }
+  .LinFooterLink1 a:first-child,
+  .LinFooterLink2 a:first-child,
+  .LinFooterLink3 a:first-child,
+  .LinFooterLink4 a:first-child,
+  .LinFooterLink5 a:first-child {
+    margin-bottom: 10px;
+  }
+  .LinFooterLink1 a:last-child,
+  .LinFooterLink2 a:last-child,
+  .LinFooterLink3 a:last-child,
+  .LinFooterLink4 a:last-child,
+  .LinFooterLink5 a:last-child {
+    margin-bottom: 70px;
+  }
+  .LinksFooterBottomBTN {
+    gap: 10px;
+    padding: 10px;
+
+    font-size: 13px;
+  }
+  .LinFooterLink5 a button img {
+    height: 17px;
+  }
+}
+
+@media (max-width: 800px) {
+  .TopFooter {
+    height: 100%;
+    gap: 55px;
+  }
+  .TopTopFooter {
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    margin-top: 110px;
+  }
+  .btnParaFooter {
+    font-size: 13px;
+    display: none;
+  }
+  .btnParaFooterLogo {
+    padding: 7px;
+    background-color: #333333;
+    border-radius: 5px;
+    display: block;
+  }
+  .TextTopFooter h1 {
+    font-size: 30px;
+  }
+  .TextTopFooter p {
+    color: #7e7e81;
+    font-size: 15px;
+  }
+  .imgFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+  .imgFooter img {
+    height: 100px;
+  }
+  .BotTopFooter {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .CardTopFooter {
+    width: 84%;
+  }
+  .TextBotCardFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .TextBotCardFooter h1 {
+    font-size: 22px;
+  }
+  .TextBotCardFooter p {
+    color: #98989a;
+    font-size: 16px;
+  }
+
+  .imgCardFooter a img {
+    height: 38px;
+    margin-bottom: 80px;
+  }
+  .BotFooter {
+    height: 100%;
+  }
+  .BotFooterLinks {
+    margin-top: 30px;
+    height: 100%;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .LinFooterLink1,
+  .LinFooterLink2,
+  .LinFooterLink3,
+  .LinFooterLink4,
+  .LinFooterLink5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 45%;
+    height: 400px;
+
+    gap: 0px;
+  }
+
+  .LinksFooterBottomBTN_Main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 7px;
+  }
+  .LinFooterLink5 {
+    gap: 10px;
+    flex-direction: row;
+    width: 100%;
+    height: 120px;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+  }
+  .LinFooterLink1 a,
+  .LinFooterLink2 a,
+  .LinFooterLink3 a,
+  .LinFooterLink4 a,
+  .LinFooterLink5 a {
+    font-size: 17px;
+  }
+  .LinFooterLink1 a:first-child,
+  .LinFooterLink2 a:first-child,
+  .LinFooterLink3 a:first-child,
+  .LinFooterLink4 a:first-child,
+  .LinFooterLink5 a:first-child {
+    margin-bottom: 10px;
+  }
+  .LinFooterLink1 a:last-child,
+  .LinFooterLink2 a:last-child,
+  .LinFooterLink3 a:last-child,
+  .LinFooterLink4 a:last-child,
+  .LinFooterLink5 a:last-child {
+    margin-bottom: 70px;
+  }
+  .LinksFooterBottomBTN {
+    gap: 10px;
+    padding: 10px;
+
+    font-size: 13px;
+  }
+  .LinFooterLink5 a button img {
+    height: 17px;
+  }
+}
+
+@media (max-width: 600px) {
+  .TopFooter {
+    height: 100%;
+    gap: 40px;
+  }
+  .TopTopFooter {
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    margin-top: 110px;
+  }
+  .btnParaFooter {
+    font-size: 13px;
+    display: none;
+  }
+  .btnParaFooterLogo {
+    padding: 5px;
+    background-color: #333333;
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+  }
+  .TextTopFooter h1 {
+    font-size: 30px;
+  }
+  .TextTopFooter p {
+    color: #7e7e81;
+    font-size: 15px;
+  }
+  .imgFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+  .imgFooter img {
+    height: 100px;
+  }
+  .BotTopFooter {
+    width: 90%;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .CardTopFooter {
+    width: 80%;
+  }
+  .TextBotCardFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .TextBotCardFooter h1 {
+    font-size: 22px;
+  }
+  .TextBotCardFooter p {
+    color: #98989a;
+    font-size: 16px;
+  }
+
+  .imgCardFooter a img {
+    height: 38px;
+    margin-bottom: 80px;
+  }
+  .BotFooterLinks {
+    gap: 0px;
+  }
+  .LinFooterLink1,
+  .LinFooterLink2,
+  .LinFooterLink3,
+  .LinFooterLink4,
+  .LinFooterLink5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 45%;
+    height: 400px;
+    justify-content: space-around;
+    gap: 0px;
+  }
+
+  .LinksFooterBottomBTN_Main {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 7px;
+  }
+  .LinFooterLink5 {
+    gap: 10px;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100px;
+    height: 10%;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+  }
+  .LinFooterLink1 a,
+  .LinFooterLink2 a,
+  .LinFooterLink3 a,
+  .LinFooterLink4 a,
+  .LinFooterLink5 a {
+    font-size: 17px;
+  }
+  .LinFooterLink1 a:first-child,
+  .LinFooterLink2 a:first-child,
+  .LinFooterLink3 a:first-child,
+  .LinFooterLink4 a:first-child,
+  .LinFooterLink5 a:first-child {
+    margin-bottom: 3px;
+  }
+  .LinFooterLink1 a:last-child,
+  .LinFooterLink2 a:last-child,
+  .LinFooterLink3 a:last-child,
+  .LinFooterLink4 a:last-child,
+  .LinFooterLink5 a:last-child {
+    margin-bottom: 20px;
+  }
+  .LinksFooterBottomBTN {
+    gap: 10px;
+    padding: 10px;
+   
+    font-size: 13px;
+  }
+  .LinFooterLink5 a button img {
+    height: 17px;
+  }
+  .SuperBotFooter {
+    padding-top: 20px;
+    border-top: 1px solid #262626;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+    gap: 10px;
+  }
+  .TypsSuperBotFooter {
+    justify-content: center;
+    gap: 5px;
+  }
+  .TypsSuperBotFooter p {
+    font-size: 13px;
+  }
+  .ParaSuperBotFooter{
+    justify-content: center;
+  }
+  .ParaSuperBotFooter p {
+    font-size: 13px;
+
+  }
+  .IconsSuperBotFooter{
+    position: absolute;
+    margin-bottom: 75px;
+    width: 100px;
+   
+  }
+  .IconsSuperBotFooter img {
+    height: 20px;
+
+  }
+}
+

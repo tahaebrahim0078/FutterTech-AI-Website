@@ -1,0 +1,70 @@
+.FooterVideosResourses {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+}
+.MainFooterVideosResourses {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.FooterVideosRcards {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 20px;
+}
+.FooterVideosRcards img {
+  border-radius: 12px;
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+
+.TypsFooterVideosRcards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.TypsFooterVideosRcards p {
+  color: #98989a;
+  width: 100%;
+  height: 70px;
+}
+
+.BtnFooterVideosRcards {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.BtnFooterVideosRcards a {
+  width: 100%;
+}
+.BtnFooterVideosRcards a button {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #242424;
+  background-color: #141414;
+  color: #98989a;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.BtnFooterVideosRcards a button:hover {
+  background-color: #1a1a1a;
+}
+
+.LineFooterVidRes {
+  border: none;
+  border-left: 1px solid #242424;
+  height: 100%;
+}

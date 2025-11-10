@@ -1,0 +1,35 @@
+:root {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: meduim;
+  background-color: #141414;
+  color: white;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.container{
+  width: 80%;
+ 
+  
+
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 238, 0),
+    rgba(255, 166, 0, 0.801),
+    rgb(255, 94, 0)
+  );
+  border-radius: 20px;
+}
+
+

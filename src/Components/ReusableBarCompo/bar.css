@@ -1,0 +1,176 @@
+.MainBar {
+  width: 100%;
+  background-color: #1a1a1a;
+  height: 30vh;
+  border-top: 1px solid #262626;
+  border-bottom: 1px solid #262626;
+  display: flex;
+  justify-content: center;
+}
+
+.bar {
+
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+.leftBar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+.leftBar p {
+  font-size: 18px;
+  background-color: #333333;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.leftBar h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.btnBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  background-color: #141414;
+  border: 1px solid #262626;
+  width: 100%;
+  height: 60px;
+  color: #98989a;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+.btnBar:hover {
+  border: 1px solid #ffd11a;
+  color: #ffd11a;
+  cursor: pointer;
+}
+
+.btnBar img {
+  height: 25px;
+}
+
+.rightBar {
+
+  height: 100%;
+  width:250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightBar a {
+  text-decoration: none;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .leftBar p {
+    font-size: 17px;
+
+  }
+  
+  .leftBar h1 {
+    font-size: 35px;
+   
+  }
+  
+}
+
+@media (max-width: 750px) {
+  .bar {
+   
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    height: 100%;
+    align-items: start;
+    flex-direction: column;
+   
+    
+  }
+  .rightBar {
+    margin-top: 20px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btnBar {
+   
+    width: 100%;
+    
+    height: 50px;
+    color: #98989a;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: 0.3s ease;
+  }
+  
+}
+
+@media (max-width: 650px) {
+  .MainBar {
+
+    height: 25vh;
+
+  }
+  
+  .leftBar p {
+    font-size: 16px;
+
+  }
+  
+  .leftBar h1 {
+    font-size: 30px;
+   
+  }
+  
+}
+@media (max-width: 500px) {
+  .MainBar {
+
+    height: 25vh;
+
+  }
+  
+  .leftBar p {
+    font-size: 15px;
+
+  }
+  
+  .leftBar h1 {
+    font-size:28px;
+   
+  }
+  
+}
+@media (max-width: 450px) {
+  .MainBar {
+
+    height: 26vh;
+
+  }
+  
+  .leftBar p {
+    font-size: 14px;
+
+  }
+  
+  .leftBar h1 {
+    font-size:25px;
+   
+  }
+  
+}
+
+

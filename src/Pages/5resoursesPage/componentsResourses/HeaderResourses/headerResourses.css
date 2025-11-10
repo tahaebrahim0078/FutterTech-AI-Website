@@ -1,0 +1,152 @@
+.headerResourses {
+  width: 100%;
+  height: 48vh;
+  border-bottom: 1px solid #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textFirstMainResourses {
+  width: 85%;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.textFirstMainResourses h1 {
+  font-size: 70px;
+  font-weight: 500;
+}
+.textFirstMainResourses div p {
+  color: #98989a;
+
+  flex: 1;
+}
+.scndHResourse1 {
+  width: 30%;
+}
+.textFirstMainResourses div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CardHeaderResourses {
+  width: 100%;
+
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+}
+.Main_CardHeaderResourses {
+  width: 85%;
+  gap: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CardsHeaderR {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.CardsHeaderR h1 {
+  font-size: 40px;
+}
+.CardsHeaderR h1 span {
+  color: #ffd11a;
+  font-size: 45px;
+  font-weight: 500;
+}
+.CardsHeaderR p {
+  color: #98989a;
+}
+
+.LineResoursesCards {
+  height: 100%;
+  border: none;
+  border-left: 1px solid #262626;
+}
+
+
+
+
+
+
+
+
+.barResourses {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 30vh;
+  align-items: center;
+  border-top: 1px solid #262626;
+  border-bottom: 1px solid #262626;
+  gap: 280px;
+  background-color: #1a1a1a;
+  
+}
+.leftBarResourses {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  margin-left: 145px;
+  
+}
+.leftBarResourses p {
+  font-size: 18px;
+  background-color: #333333;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.leftBarResourses h1 {
+  font-size: 40px;
+  font-weight: 500;
+  
+}
+.rightBarResourses{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.btnsResoursBar{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 145px;
+  gap: 10px;
+  padding: 8px 8px;
+  border: 1px solid #262626;
+  border-radius: 10px;
+  background-color: #141414;
+
+
+}
+
+.btnsResoursBar a button{
+   padding: 20px 27px;
+   border: 1px solid #262626;
+   background-color: #141414;
+   border-radius: 10px;
+   color: #98989A;
+   transition: 0.3s ease;
+}
+.btnsResoursBar a button:hover{
+  background-color: #262626;
+
+}

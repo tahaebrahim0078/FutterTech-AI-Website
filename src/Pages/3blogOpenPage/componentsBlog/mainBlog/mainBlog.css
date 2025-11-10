@@ -1,0 +1,257 @@
+.SuperMainBlog {
+  width: 100%;
+  border-top: 1px solid #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+.mainBlog {
+  width: 85%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.LeftBlog {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.topLeftBlog {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.topLeftBlog h1 {
+  font-size: 21px;
+}
+.topLeftBlog p {
+  width: 90%;
+  color: #98989a;
+}
+
+.botLeftBlog {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.FirstText {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 90px;
+}
+
+.FirstText h1 {
+  font-size: 22px;
+}
+.FirstText p {
+  color: #98989a;
+  width: 90%;
+}
+
+.secndText {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.secndText h1 {
+  font-size: 22px;
+}
+
+.secndText p {
+  color: #98989a;
+  width: 90%;
+}
+.MainbtnLeftBlog {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  margin-top: -140px;
+}
+.btnLeftBlog {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mask-image: linear-gradient(to top, rgb(0, 0, 0) 65%, transparent 100%);
+
+  position: relative;
+  background-color: #141414;
+}
+
+.btnarroDown img {
+  height: 25px;
+}
+.btnarroDown{
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 15px;
+  color: #98989a;
+  gap: 5px;
+  position: absolute;
+  transition: 0.3s ease;
+}
+.btnarroDown:hover{
+  border: 1px solid #fffb00;
+  color: #fffb00;
+
+}
+
+.RightBlog {
+  width: 50%;
+  height: 100%;
+}
+
+.topRightBlog {
+  border-left: 1px solid #262626;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 12%;
+}
+.topRightBlog button img {
+  height: 20px;
+}
+.botRightBlog {
+  border-left: 1px solid #262626;
+  width: 100%;
+  height: 88%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loveBtnBlog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  transition: 0.3s ease;
+}
+.loveBtnBlog1:hover {
+  border: 1px solid #ff0000;
+}
+.loveBtnBlog2:hover {
+  border: 1px solid #fffb00;
+}
+.loveBtnBlog3:hover {
+  border: 1px solid rgb(0, 183, 255);
+}
+.loveBtnBlog p {
+  color: #98989a;
+}
+.highRightBotBlog {
+  width: 75%;
+  height: 50%;
+  align-items: center;
+  justify-content: start;
+  gap: 65px;
+  display: flex;
+}
+.firstHigh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.secndHigh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.letter1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: start;
+}
+
+.letter2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: start;
+}
+
+.letter3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  gap: 12px;
+}
+
+.letter4 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: start;
+}
+
+.FirstParaBlog {
+  color: #98989a;
+}
+
+.lowRightBotBlog {
+  width: 75%;
+  height: 100%;
+}
+.lowRightBotBlog p {
+  margin-bottom: 20px;
+  color: #98989a;
+}
+.lowRightBotBlog ul {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+}
+.lowRightBotBlog ul li {
+  margin-left: 40px;
+}
+
+.hrLineBlogLeft {
+  margin-left: -150px;
+  border: none;
+  border-top: 1px solid #262626;
+}
+.hrLineBlogRight {
+  border: none;
+  border-top: 1px solid #262626;
+  width: 126%;
+}

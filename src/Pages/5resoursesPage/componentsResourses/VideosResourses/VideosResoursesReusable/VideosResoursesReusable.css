@@ -1,0 +1,137 @@
+.VideosResoursesReusable {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #242424;
+
+}
+.MainVideosResoursesReusable {
+  width: 85%;
+  height: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.leftVideosResoursesReusable {
+  
+  width: 59%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-right: 1px solid #242424;
+
+  justify-content: center;
+  gap: 20px;
+}
+.leftVideosResoursesReusable h1 {
+  font-size: 32px;
+  width: 80%;
+  font-weight: 500;
+}
+.leftVideosResoursesReusable p {
+  width: 80%;
+  color: #98989a;
+}
+.leftVideosResoursesReusable img {
+  height: 70px;
+  margin-bottom: 25px;
+}
+
+.RightVideosResoursesReusable {
+  
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 35px;
+}
+
+.RightVideosResoursesReusableImg {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.RightVideosResoursesReusableImg img {
+  width: 92%;
+  border-radius: 19px;
+
+  height: 400px;
+  object-fit: cover;
+}
+
+.RightVideosResoursesReusableTitleAndBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+}
+
+.TypsRightVideosResoursesReusable {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+.TypsRightVideosResoursesReusable p {
+  color: #98989a;
+  width: 90%;
+}
+.BtnRightVideosResoursesReusable a {
+  text-decoration: none;
+}
+.BtnRightVideosResoursesReusable a button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 225px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  border: 1px solid #242424;
+  border-radius: 10px;
+  color: #98989a;
+  transition: 0.3s ease;
+}
+.BtnRightVideosResoursesReusable a button:hover {
+  color: #ffd11a;
+  border: 1px solid #ffd11a;
+}
+.BtnRightVideosResoursesReusable a button img {
+  height: 25px;
+}
+
+.CardsRightVideosResoursesReusable {
+  align-items: center;
+  justify-content: space-between;
+  width: 92%;
+  display: flex;
+  gap: 15px;
+}
+.CardsRightVideosResoursesReusable_CARD {
+  width: 100%;
+  border: 1px solid #242424;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 30px;
+  border-radius: 19px;
+  gap: 6px;
+  background-color: #1a1a1a;
+}
+.CardsRightVideosResoursesReusable_CARD h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.CardsRightVideosResoursesReusable_CARD p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #98989a;
+}

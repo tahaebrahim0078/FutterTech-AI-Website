@@ -1,0 +1,41 @@
+.headerProducts {
+    width: 100%;
+    height: 48vh;
+     border-bottom: 1px solid #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textFirstMainProducts {
+    width: 85%;
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  .textFirstMainProducts h1 {
+    font-size: 70px;
+    font-weight: 500;
+  }
+  .textFirstMainProducts div p {
+    color: #98989a;
+
+   
+    flex: 1;
+  }
+  .scndH1{
+   
+  
+    
+    width: 40%;
+  }
+  .textFirstMainProducts div {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  

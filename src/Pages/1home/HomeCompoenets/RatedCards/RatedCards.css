@@ -1,0 +1,392 @@
+.MainRated {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.SectionLineRatedCards{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #242424;
+}
+.RatedCards {
+  width: 85%;
+  height: 43.5vh;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  
+}
+
+.MainCardsRated {
+  
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 400px;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.MainImgRated {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 60px;
+}
+
+.NamesRated h1 {
+  font-size: 18px;
+}
+.NamesRated p {
+  font-size: 16px;
+  color: #666666;
+}
+
+.imgRated {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(230, 227, 227);
+}
+
+.imgRated img {
+  height: 200%;
+  object-fit: cover;
+}
+
+.MainStarsRateds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.StarsRateds {
+  border: 1px solid #262626;
+  border-radius: 40px;
+  padding: 8px 10px 8px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #141414;
+  margin-bottom: 215px;
+  position: absolute;
+}
+
+.StarsRateds img {
+  height: 17px;
+}
+
+.ParaRated {
+  width: 90%;
+  height: 110px;
+  margin-bottom: 45px;
+  border: 1px solid #262626;
+  background-color: #1a1a1a;
+  padding: 35px 20px 25px 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ParaRated p {
+  
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 0px 15px 0px 15px;
+  font-size: 17px;
+}
+
+.RatedCardsBorders{
+  display: flex;
+  align-items: center;
+
+}
+.LineRatedCardsHome{
+  height: 100%;
+ 
+  border: none;
+  border-left: 1px solid #242424;
+}
+
+@media(max-width:1500px){
+  .MainImgRated {
+
+    margin-top: 80px;
+  }
+  .NamesRated h1 {
+    font-size: 17px;
+  }
+  .NamesRated p {
+    font-size: 15px;
+   
+  }
+  
+  .imgRated {
+    width: 75px;
+    height: 75px;
+
+  }
+  
+  .StarsRateds {
+    border: 1px solid #262626;
+    border-radius: 40px;
+    padding: 8px 10px 8px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    margin-bottom: 205px;
+    position: absolute;
+  }
+  
+
+  .StarsRateds img {
+    height: 15px;
+  }
+  
+  .ParaRated {
+    width: 90%;
+    height: 100px;
+    margin-bottom: 45px;
+    border: 1px solid #262626;
+    background-color: #1a1a1a;
+    padding: 33px 19px 25px 19px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ParaRated p {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0px 15px 0px 15px;
+    font-size: 16px;
+  }
+  
+}
+@media(max-width:1200px){
+  .MainImgRated {
+
+    margin-top: 90px;
+  }
+  .NamesRated h1 {
+    font-size: 15px;
+  }
+  .NamesRated p {
+    font-size: 13px;
+   
+  }
+  
+  .imgRated {
+    width: 65px;
+    height: 65px;
+
+  }
+  
+  .StarsRateds {
+    border: 1px solid #262626;
+    border-radius: 40px;
+    padding: 8px 10px 8px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    margin-bottom: 190px;
+    position: absolute;
+  }
+  
+
+  .StarsRateds img {
+    height: 13px;
+  }
+  
+  .ParaRated {
+    width: 90%;
+    height: 90px;
+    margin-bottom: 45px;
+    border: 1px solid #262626;
+    background-color: #1a1a1a;
+    padding: 33px 19px 25px 19px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ParaRated p {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 0px;
+    font-size: 16px;
+  }
+  
+}
+@media(max-width:1000px){
+  .RatedCards {
+
+    gap: 35px;
+  
+  }
+  
+  .MainImgRated {
+
+    margin-top: 90px;
+  }
+  .NamesRated h1 {
+    font-size: 15px;
+  }
+  .NamesRated p {
+    font-size: 13px;
+   
+  }
+  
+  .imgRated {
+    width: 65px;
+    height: 65px;
+
+  }
+  
+  .StarsRateds {
+    border: 1px solid #262626;
+    border-radius: 40px;
+    padding: 8px 10px 8px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    margin-bottom: 215px;
+    position: absolute;
+  }
+  
+
+  .StarsRateds img {
+    height: 12px;
+  }
+  
+  .ParaRated {
+    width: 90%;
+    height: 110px;
+    margin-bottom: 45px;
+    border: 1px solid #262626;
+    background-color: #1a1a1a;
+    padding: 33px 19px 25px 19px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ParaRated p {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+  }
+  
+}
+@media(max-width:800px){
+  .RatedCards {
+    border-bottom: 1px solid #242424;
+    gap: 0px;
+  
+  }
+  .RatedCards:last-child{
+    border: none;
+  }
+  
+  .MainImgRated {
+
+    margin-top: 70px;
+  }
+  .NamesRated h1 {
+    font-size: 15px;
+  }
+  .NamesRated p {
+    font-size: 13px;
+   
+  }
+  
+  .imgRated {
+    width: 80px;
+    height: 80px;
+
+  }
+  
+  .StarsRateds {
+    border: 1px solid #262626;
+    border-radius: 40px;
+    padding: 8px 10px 8px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    margin-bottom: 215px;
+    position: absolute;
+  }
+  
+
+  .StarsRateds img {
+    height: 16px;
+  }
+  
+  .ParaRated {
+    width: 100%;
+    height: 110px;
+    margin-bottom: 45px;
+    border: 1px solid #262626;
+    background-color: #1a1a1a;
+    padding: 33px 19px 25px 19px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ParaRated p {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0px 0px 0px 0px;
+    font-size: 17px;
+  }
+  
+  .RatedCards{
+    flex-direction: column;
+    height: 100%;
+  }
+  .MainRatedDisplayNone{
+    display: none;
+  }
+  .LineRatedCardsHome{
+    border: none;
+  }
+  .SectionLineRatedCards{
+    
+    border: none;
+ 
+  }
+}

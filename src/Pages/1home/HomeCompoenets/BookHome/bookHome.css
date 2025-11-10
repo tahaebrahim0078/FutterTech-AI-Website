@@ -1,0 +1,812 @@
+.MainBook {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+}
+.MainMainBook {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.leftBook {
+  width: 59%;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: center;
+}
+.rightBook {
+  border-left: 1px solid #262626;
+  width: 100%;
+  gap: 28px;
+}
+.topLeftBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  gap: 15px;
+}
+.topLeftBook img {
+  height: 70px;
+  margin-bottom: 18px;
+}
+.topLeftBook h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.topLeftBook p {
+  width: 80%;
+  color: #98989a;
+}
+.LeftBookBtn img {
+  height: 25px;
+  margin-top: 15px;
+}
+.topLeftBook a {
+  width: 90%;
+}
+.LeftBookBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  width: 100%;
+  height: 60px;
+  color: #98989a;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: 0.3s ease;
+  margin-top: 20px;
+}
+.downRight a {
+  text-decoration: none;
+}
+
+.topLeftBook a {
+  text-decoration: none;
+}
+.LeftBookBtn:hover {
+  border: 1px solid #ffd11a;
+  color: #ffd11a;
+  background-color: #141414;
+}
+
+.botLeftBookimages img {
+  width: 45px;
+}
+
+.botLeftBook {
+  margin-top: 40px;
+  height: 120px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+}
+.botLeftBookTexts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 5px;
+}
+.botLeftBookTexts p {
+  color: #98989a;
+  font-size: 15px;
+}
+.botLeftBookTexts h1 {
+  font-size: 21px;
+}
+
+.botLeftBookimages {
+  display: flex;
+  gap: 30px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+  background-color: #141414;
+  margin-right: 5px;
+}
+.botLeftBookimages img {
+  border: 2px solid #7e7e81;
+  border-radius: 50%;
+  background-color: #262626;
+  height: 45px;
+}
+.bookImgRaduis1 {
+  margin-right: -10px;
+}
+.bookImgRaduis2 {
+  margin-left: -30px;
+}
+.bookImgRaduis3 {
+  margin-left: -40px;
+}
+.bookImgRaduis4 {
+  margin-left: -40px;
+}
+
+.rightBook {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.rightBookTexts {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 40px;
+}
+.rightBookTexts h1 {
+  font-size: 20px;
+  width: 25%;
+}
+.rightBookTexts p {
+  width: 100%;
+  color: #98989a;
+}
+
+.rightBookImages {
+  width: 90%;
+  height: 45%;
+  border-radius: 14px;
+
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightBookImages img {
+  min-width: 1200px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.rightBookBtn {
+  display: flex;
+  width: 90%;
+  height: 12vh;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.rightBookBtnLeft {
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border-radius: 14px;
+}
+.rightBookBtnLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.rightBookBtnLeft h1 {
+  font-size: 20px;
+}
+.rightBookBtnLeft p {
+  color: #98989a;
+}
+.rightBookBtnRight {
+  background-color: #1a1a1a;
+  border-radius: 14px;
+
+  border: 1px solid #262626;
+
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightBookBtnRightTexts {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.rightBookBtnRightTexts h1 {
+  font-size: 20px;
+}
+.rightBookBtnRightTexts p {
+  color: #98989a;
+}
+.RightBookBtn img {
+  height: 25px;
+}
+.RightBookBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  background-color: #141414;
+  border: 1px solid #262626;
+  width: 150px;
+  height: 60px;
+  color: #98989a;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: 0.3s ease;
+  margin-right: 35px;
+}
+.RightBookBtn:hover {
+  border: 1px solid #ffd11a;
+  color: #ffd11a;
+  background-color: #141414;
+}
+
+.rightBook a {
+  text-decoration: none;
+}
+
+.rightBookBot {
+  border: 1px solid #262626;
+
+  background-color: #1a1a1a;
+  border-radius: 14px;
+  width: 90%;
+  height: 12vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+
+.rightBookBot p {
+  color: #98989a;
+  margin-left: 30px;
+}
+
+.rightBookBot h1 {
+  font-size: 19px;
+  margin-left: 30px;
+  width: 95%;
+}
+
+@media (max-width: 1500px) {
+  .LeftBookBtn {
+    width: 100%;
+    height: 55px;
+    font-size: 15px;
+  }
+  .botLeftBook {
+    margin-top: 30px;
+    height: 110px;
+    width: 350px;
+  }
+  .botLeftBook h1 {
+    font-size: 18px;
+  }
+  .botLeftBook p {
+    font-size: 14px;
+  }
+  .rightBookTexts h1 {
+    font-size: 18px;
+    width: 30%;
+  }
+  .rightBookTexts p {
+    width: 100%;
+    color: #98989a;
+    font-size: 14px;
+  }
+
+  .rightBookImages img {
+    min-width: 1000px;
+  }
+  .rightBookBtn {
+    display: flex;
+    width: 90%;
+    height: 11vh;
+    justify-content: space-between;
+    gap: 28px;
+  }
+  .rightBookBtnLeft h1 {
+    font-size: 17px;
+  }
+  .rightBookBtnLeft p {
+    color: #98989a;
+    font-size: 15px;
+  }
+  .rightBookBtnRightTexts h1 {
+    font-size: 17px;
+  }
+  .rightBookBtnRightTexts p {
+    color: #98989a;
+    font-size: 15px;
+  }
+  .RightBookBtn img {
+    height: 22px;
+  }
+  .RightBookBtn {
+    width: 130px;
+    height: 55px;
+
+    font-size: 14px;
+  }
+  .rightBookBot p {
+    color: #98989a;
+    margin-left: 30px;
+    font-size: 14px;
+  }
+
+  .rightBookBot h1 {
+    font-size: 17px;
+    margin-left: 30px;
+    width: 95%;
+  }
+}
+@media (max-width: 1300px) {
+  .LeftBookBtn {
+    width: 100%;
+    height: 55px;
+    font-size: 15px;
+  }
+  .botLeftBook {
+    margin-top: 30px;
+    height: 110px;
+    width: 350px;
+  }
+  .botLeftBook h1 {
+    font-size: 18px;
+  }
+  .botLeftBook p {
+    font-size: 14px;
+  }
+  .rightBookTexts h1 {
+    font-size: 18px;
+    width: 30%;
+  }
+  .rightBookTexts p {
+    width: 100%;
+    color: #98989a;
+    font-size: 14px;
+  }
+
+  .rightBookImages img {
+    width: 800px;
+  }
+  .rightBookBtn {
+    display: flex;
+    width: 90%;
+    height: 11vh;
+    justify-content: space-between;
+    gap: 28px;
+  }
+  .rightBookBtnLeft h1 {
+    font-size: 17px;
+  }
+  .rightBookBtnLeft p {
+    color: #98989a;
+    font-size: 15px;
+  }
+  .rightBookBtnRightTexts h1 {
+    font-size: 17px;
+  }
+  .rightBookBtnRightTexts p {
+    color: #98989a;
+    font-size: 15px;
+  }
+  .RightBookBtn img {
+    height: 22px;
+  }
+  .RightBookBtn {
+    width: 130px;
+    height: 55px;
+
+    font-size: 14px;
+  }
+  .rightBookBot p {
+    color: #98989a;
+    margin-left: 30px;
+    font-size: 14px;
+  }
+
+  .rightBookBot h1 {
+    font-size: 17px;
+    margin-left: 30px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .topLeftBook img {
+    height: 50px;
+  }
+  .topLeftBook h1 {
+    font-size: 25px;
+  }
+  .topLeftBook p {
+    width: 80%;
+    color: #98989a;
+    font-size: 15px;
+  }
+  .LeftBookBtn {
+    width: 100%;
+    height: 55px;
+    font-size: 14px;
+  }
+  .LeftBookBtn img {
+    height: 20px;
+  }
+
+  .botLeftBook {
+    margin-top: 30px;
+    height: 110px;
+    width: 310px;
+  }
+  .botLeftBook h1 {
+    font-size: 16px;
+  }
+  .botLeftBook p {
+    font-size: 13px;
+  }
+  .rightBookTexts h1 {
+    font-size: 17px;
+    width: 30%;
+  }
+  .rightBookTexts p {
+    width: 100%;
+    color: #98989a;
+    font-size: 13px;
+  }
+  .rightBookImages {
+    width: 90%;
+    height: 38%;
+  }
+
+  .rightBookImages img {
+    min-width: 300px;
+    height: 100%;
+    width: 100%;
+  }
+  .rightBookBtn {
+    display: flex;
+    width: 90%;
+    height: 11vh;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .rightBookBtnLeft h1 {
+    font-size: 15px;
+  }
+  .rightBookBtnLeft p {
+    color: #98989a;
+    font-size: 14px;
+  }
+  .rightBookBtnRightTexts h1 {
+    font-size: 15px;
+  }
+  .rightBookBtnRightTexts p {
+    color: #98989a;
+    font-size: 14px;
+  }
+  .RightBookBtn img {
+    height: 20px;
+  }
+  .RightBookBtn {
+    width: 110px;
+    height: 50px;
+
+    font-size: 13px;
+  }
+  .rightBookBot p {
+    color: #98989a;
+    margin-left: 30px;
+    font-size: 13px;
+  }
+
+  .rightBookBot h1 {
+    font-size: 15px;
+    margin-left: 30px;
+    width: 95%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .MainBook {
+    height: 100%;
+    display: flex;
+  }
+  .MainMainBook {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .leftBook {
+    width: 100%;
+    margin-top: 40px;
+   border-bottom: 1px solid #242424;
+   padding-bottom: 40px;
+  }
+  .rightBook {
+    border: none;
+  
+  }
+
+  .topLeftBook h1 {
+    font-size: 30px;
+  }
+  .topLeftBook p {
+    width: 100%;
+    color: #98989a;
+    font-size: 16px;
+  }
+  .LeftBookBtn {
+    width: 111%;
+    height: 55px;
+    font-size: 15px;
+  }
+  .LeftBookBtn img {
+    height: 25px;
+  }
+
+  .botLeftBook {
+    margin-top: 30px;
+    height: 120px;
+    width: 80%;
+  }
+  .botLeftBook h1 {
+    font-size: 21px;
+  }
+  .botLeftBook p {
+    font-size: 17px;
+  }
+  .rightBookTexts {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .rightBookTexts h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .rightBookTexts p {
+    width: 100%;
+    color: #98989a;
+    font-size: 15px;
+  }
+  .rightBookImages {
+    width: 100%;
+    height: 25vh;
+  }
+
+  .rightBookImages img {
+    min-width: 985px;
+    height: 100%;
+    width: 100%;
+  }
+  .rightBookBtn {
+    display: flex;
+    width: 100%;
+    height: 22vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .rightBookBtnLeft {
+    height: 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+  .rightBookBtnLeft h1 , .rightBookBtnLeft p {
+    margin-left: 35px;
+  }
+
+
+
+  .rightBookBtnRight {
+    height: 100%;
+    width: 100%;
+  }
+  .rightBookBtnLeft h1 {
+    font-size: 17px;
+  }
+  .rightBookBtnLeft p {
+    color: #98989a;
+    font-size: 15px;
+  }
+  .rightBookBtnRightTexts h1 {
+    font-size: 17px;
+  }
+  .rightBookBtnRightTexts p {
+    color: #98989a;
+    font-size: 15px;
+  }
+  .RightBookBtn img {
+    height: 25px;
+  }
+  .RightBookBtn {
+    width: 130px;
+    height: 56px;
+
+    font-size: 15px;
+  }
+  .rightBookBot{
+    width: 100%;
+  }
+  .rightBookBot p {
+    color: #98989a;
+    margin-left: 30px;
+    font-size: 15px;
+  }
+
+  .rightBookBot h1 {
+    font-size: 17px;
+    margin-left: 30px;
+    width: 85%;
+  }
+}
+
+
+
+
+@media (max-width: 570px) {
+  .MainBook {
+    height: 100%;
+    display: flex;
+  }
+  .MainMainBook {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .leftBook {
+    width: 100%;
+  }
+  
+  .topLeftBook h1 {
+    font-size: 30px;
+  }
+  .topLeftBook p {
+    width: 100%;
+    color: #98989a;
+    font-size: 16px;
+  }
+  .LeftBookBtn {
+    width: 111%;
+    height: 55px;
+    font-size: 15px;
+  }
+  .LeftBookBtn img {
+    height: 25px;
+  }
+
+  .botLeftBook {
+    margin-top: 30px;
+    height: 120px;
+    width: 95%;
+  }
+  .botLeftBook h1 {
+    font-size: 19px;
+  }
+  .botLeftBook p {
+    font-size: 16px;
+  }
+  .rightBookTexts {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .rightBookTexts h1 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .rightBookTexts p {
+    width: 100%;
+    color: #98989a;
+    font-size: 15px;
+  }
+  .rightBookImages {
+    width: 100%;
+    height: 25vh;
+  }
+
+  .rightBookImages img {
+    min-width: 400px;
+    height: 100%;
+    width: 100%;
+  }
+  .rightBookBtn {
+    display: flex;
+    width: 100%;
+    height: 22vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .rightBookBtnLeft {
+    height: 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+
+  }
+  .rightBookBtnLeft h1 , .rightBookBtnLeft p {
+    margin-left: 15px;
+  }
+
+
+
+  .rightBookBtnRight {
+    height: 100%;
+    width: 100%;
+  }
+  .rightBookBtnLeft h1 {
+    font-size: 17px;
+    
+  }
+  .rightBookBtnLeft p {
+    color: #98989a;
+    font-size: 15px;
+  }
+  .rightBookBtnRightTexts {
+    margin-left: 15px;
+
+  }
+  .rightBookBtnRightTexts h1 {
+    font-size: 17px;
+    
+  }
+  .rightBookBtnRightTexts p {
+    color: #98989a;
+    font-size: 15px;
+  }
+  .RightBookBtn img {
+    height: 25px;
+  }
+  .RightBookBtn {
+    width: 130px;
+    height: 56px;
+    margin-right: 15px;
+    font-size: 15px;
+  }
+  .rightBookBot{
+    width: 100%;
+  }
+  .rightBookBot p {
+    color: #98989a;
+    margin-left: 30px;
+    font-size: 15px;
+  }
+
+  .rightBookBot h1 {
+    font-size: 17px;
+    margin-left: 30px;
+    width: 85%;
+  }
+}
+
