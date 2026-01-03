@@ -32,7 +32,7 @@ export default function mainHome() {
       <section className="mainHome">
         <div className="left">
           <div className="typs">
-            <p className="p1">Your Journey to Tomorrow Begins Here *</p>
+            <p className="p1">Your Journey to Tomorrow , Begins Here</p>
             <h1>Explore the Frontiers of Artificial Intelligence</h1>
             <p className="p2">
               Welcome to the epicenter of AI innovation. FutureTech AI News is
